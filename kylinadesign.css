@@ -1,0 +1,131 @@
+.heading {
+  background-color: darksalmon;
+  color: black;
+  height: 100px;
+  font-size: 35pt;
+  text-align: center;
+  font-weight: 700;
+
+}
+
+.skeleton {
+  margin: 0px;
+}
+
+.pad {
+  padding: 30px;
+}
+
+.beginning_header {
+  background-color: aqua;
+  color: black;
+  text-align: center;
+  margin: 0px;
+  font-size: 25pt;
+  height: 40px;
+  font-weight: 600;
+
+}
+
+.pad_2 {
+  padding: 20px;
+}
+
+.image_border {
+  margin: 5px;
+  border: 4px solid lightsalmon;
+  float: left;
+  width: 50%;
+}
+
+.welcome_header {
+
+  font-size: 45pt;
+  color: black;
+  background-color: #8dfcad;
+  margin-top: 5px;
+  text-align: center;
+  padding: 5px;
+
+
+
+}
+
+.mar {
+  margin: 50px;
+}
+
+.aus {
+  background-color: #d2f2d0;
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+.arg_header {
+
+  font-size: 40pt;
+  color: black;
+  background-color: #8dfcad;
+  margin-top: 5px;
+  text-align: center;
+  padding: 5px;
+}
+
+.arg {
+  background-color: #d2f2d0;
+  font-size: 36px;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+
+}
+
+.final_header {
+
+  font-size: 40pt;
+  color: black;
+  background-color: #8dfcad;
+  margin-top: 5px;
+  text-align: center;
+  padding: 5px;
+
+
+}
+
+.final {
+  background-color: #d2f2d0;
+  font-size: 35px;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+.stat_header {
+
+  font-size: 40pt;
+  color: black;
+  background-color: #ecfa6b;
+  margin-top: 5px;
+  text-align: center;
+  padding: 5px;
+
+
+}
+
+.tabst {
+  background-color: orange;
+  text-align: center;
+  font-size: 35px;
+
+
+}
+
+.tabst_1 {
+  background-color: cyan;
+  text-align: center;
+  font-size: 35px;
+
+
+}

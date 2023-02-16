@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    h1 {
+      margin: 10px;
+    }
+
+    #btn {
+      padding: 10px;
+      border-radius: 5px;
+      background-color: #c1c1c7;
+      font-size: 16px;
+      margin: 10px;
+      float: right;
+    }
+
+    #mypss {
+      padding: 20px;
+      border-radius: 10px;
+      margin: 10px;
+      display: block;
+    }
+
+    a {
+      text-decoration: none;
+      font-size: large;
+      color: #261804;
+      font-style: italic;
+      font-weight: bold;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #dadb9e;
+      padding: 30px;
+    }
+
+    .top_heading {
+      font-size: 35px;
+      color: black;
+
+
+
+    }
+
+    .bod {
+      border: 2px solid #521604;
+      display: inline-block;
+
+    }
+
+    .pass {
+      font-weight: bold;
+      font-size: 23px;
+    }
+
+    .alignment {
+      color: black;
+    }
+
+    .first {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <body>
+    <div class="first">
+      <h1 class="top_heading bod">
+        KYLIAN MBAPPE'S 2018 WORLD CUP JOURNEY
+      </h1>
+    </div>
+
+    </br>
+    </br>
+
+    <p class="alignment">
+      Please Enter The Password To View Kylian's Journey
+    </p>
+    <div>
+      <label for="validation">Enter the Password here: </label>
+      <input id="validation" type="password">
+    </div>
+    <div>
+      <button id="btn"><a onclick="return checkPassword()" href="kylianmbappeintro.html">Proceed</a></button>
+    </div>
+
+    <script>
+      function checkPassword() {
+        var password = document.getElementById('validation').value;
+        if (password.toLowerCase() == "avisen") {
+          return true;
+        }
+        else {
+          alert("Access denied! Incorrect password!");
+          return false;
+        }
+      }
+    </script>
+  </body>
+
+</html>
